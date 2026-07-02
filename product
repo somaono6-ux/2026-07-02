@@ -1,0 +1,26 @@
+print("Choose an operation: add, subtract, multiply, divide")
+choice = input("Your choice: ")
+
+def add(a,b):
+    print("the result is", a + b)
+def sub(a,b):
+    print("the result is", a - b)
+def mul(a,b):
+   print("the result is", a * b)
+def div(a,b):
+   print("the result is", a / b)
+
+a= int(input("what is the first number?"))
+b= int(input("what is the second number?"))
+
+if choice == "add":
+    add(a,b)
+elif choice == "subtract":
+    sub(a,b)
+elif choice =="multiply":
+    mul(a,b)
+elif choice =="divide":
+    div(a,b)
+else:
+    print("seems like you typo")
+    
