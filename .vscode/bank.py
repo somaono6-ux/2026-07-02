@@ -81,15 +81,15 @@ while True:
    if choice == 1:
       create_account()
    elif choice == 2:
-      show_account
+      show_account()
    elif choice == 3:
-      deposit_money
+      deposit_money()
    elif choice == 4:
-      withdraw_money
+      withdraw_money()
    elif choice == 5:
-      search_account
+      search_account()
    elif choice == 6:
-      delete_account
+      delete_account()
    elif choice == 7:
       print("bye!")
       break
